@@ -1,11 +1,12 @@
 {
   "name": "grunt",
-  "version": "1.0.0",
+  "version": "1.0.1",  // Alterar a versão para forçar um novo build
   "description": "",
   "main": "index.js",
   "scripts": {
     "grunt": "grunt",
     "build": "grunt build",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -22,5 +23,8 @@
   },
   "dependencies": {
     "grunt-concurrent": "^3.0.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
